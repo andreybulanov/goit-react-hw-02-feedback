@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Text = styled.p`
   font-size: 20px;
-  color: black;
+  color: blue;
   font-weight: bold;
   margin: 5px 0 5px 24px;
 `;

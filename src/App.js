@@ -1,10 +1,10 @@
-import React, { Components } from 'react';
+import React, { Component } from 'react';
 import { Button } from './Components/Buttons/Buttons.jsx';
 import { Statistic } from './Components/Statistic/Statistic.jsx';
 import { Notification } from './Components/Notification/Notification.jsx';
 import { Section } from './Components/Section/Section.jsx';
 
-class App extends Components {
+class App extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -19,7 +19,7 @@ class App extends Components {
     });
   };
 
-  countTotalFidback = () => {
+  countTotalFeedback = () => {
     const { good, neutral, bad } = this.state;
     return good + neutral + bad;
   };
